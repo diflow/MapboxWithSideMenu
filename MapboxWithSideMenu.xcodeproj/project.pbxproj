@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		2C1931A725D6787B0080C4C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1931A625D6787B0080C4C6 /* ViewController.swift */; };
 		2C1931AC25D6787D0080C4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1931AB25D6787D0080C4C6 /* Assets.xcassets */; };
 		2C1931AF25D6787D0080C4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1931AD25D6787D0080C4C6 /* LaunchScreen.storyboard */; };
+		2C1931BE25D6827F0080C4C6 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1931BD25D6827F0080C4C6 /* ModalViewController.swift */; };
+		2C1931C125D682D10080C4C6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1931C025D682D10080C4C6 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C1931AB25D6787D0080C4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C1931AE25D6787D0080C4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1931B025D6787D0080C4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1931BD25D6827F0080C4C6 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		2C1931C025D682D10080C4C6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		8B059FE663CE01EDEA870B6B /* Pods_MapboxWithSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapboxWithSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E7CD6963FCD1F356B5FB4B /* Pods-MapboxWithSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapboxWithSideMenu.release.xcconfig"; path = "Target Support Files/Pods-MapboxWithSideMenu/Pods-MapboxWithSideMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +76,8 @@
 				2C1931A225D6787B0080C4C6 /* AppDelegate.swift */,
 				2C1931A425D6787B0080C4C6 /* SceneDelegate.swift */,
 				2C1931A625D6787B0080C4C6 /* ViewController.swift */,
+				2C1931BD25D6827F0080C4C6 /* ModalViewController.swift */,
+				2C1931C025D682D10080C4C6 /* UIViewController+Extension.swift */,
 				2C1931AB25D6787D0080C4C6 /* Assets.xcassets */,
 				2C1931AD25D6787D0080C4C6 /* LaunchScreen.storyboard */,
 				2C1931B025D6787D0080C4C6 /* Info.plist */,
@@ -85,7 +91,6 @@
 				136A4E3C65ADBE6F462EE527 /* Pods-MapboxWithSideMenu.debug.xcconfig */,
 				D7E7CD6963FCD1F356B5FB4B /* Pods-MapboxWithSideMenu.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -202,8 +207,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1931BE25D6827F0080C4C6 /* ModalViewController.swift in Sources */,
 				2C1931A725D6787B0080C4C6 /* ViewController.swift in Sources */,
 				2C1931A325D6787B0080C4C6 /* AppDelegate.swift in Sources */,
+				2C1931C125D682D10080C4C6 /* UIViewController+Extension.swift in Sources */,
 				2C1931A525D6787B0080C4C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
