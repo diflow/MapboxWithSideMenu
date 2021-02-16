@@ -7,7 +7,7 @@
 
 import UIKit
 import Mapbox
-
+//Test
 class ViewController: UIViewController, MGLMapViewDelegate, CLLocationManagerDelegate {
     
     var mapView: MGLMapView!
